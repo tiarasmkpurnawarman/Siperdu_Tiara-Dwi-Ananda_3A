@@ -27,7 +27,7 @@
         <!-- data buku -->
         <ul class="sidebar-menu-list">
           <li class="sidebar-menu-item">
-            <a href="{{ route('admin.data-buku') }}" class="sidebar-menu-link {{ request()->routeIs('admin.data-buku') ? 'active' : '' }}" id="menu-buku" title="Data Buku">
+            <a href="{{ route('admin.buku.index') }}" class="sidebar-menu-link {{ request()->routeIs('admin.buku.*') ? 'active' : '' }}" id="menu-buku" title="Data Buku">
               <i class="bi bi-book"></i>
               <span>Data Buku</span>
             </a>
